@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Nov 15, 2018 at 09:43 AM
+-- Generation Time: Nov 15, 2018 at 10:39 AM
 -- Server version: 5.7.19
 -- PHP Version: 7.0.23
 
@@ -210,9 +210,7 @@ CREATE TABLE IF NOT EXISTS `products` (
 --
 
 INSERT INTO `products` (`id`, `name`, `detail`, `price`, `stock`, `discount`, `created_at`, `updated_at`) VALUES
-(1, 'voluptatibus', 'Ipsa dolore id rem doloremque alias. Doloribus expedita aut distinctio quos tenetur ducimus ipsam debitis. A hic quia velit excepturi molestiae quaerat. Quo asperiores possimus sint ea qui.', 619, 1, 21, '2018-11-14 06:33:30', '2018-11-14 06:33:30'),
 (2, 'vel', 'Nulla sapiente sint enim possimus error aliquam. Et harum assumenda doloremque saepe pariatur. Eum et quia doloribus a ea doloribus vel consequuntur.', 936, 7, 21, '2018-11-14 06:33:30', '2018-11-14 06:33:30'),
-(3, 'consequuntur', 'Fuga voluptate ab sint itaque. Eaque est amet ea at eos sit qui. Culpa possimus voluptatum officiis nisi.', 278, 7, 26, '2018-11-14 06:33:30', '2018-11-14 06:33:30'),
 (4, 'laudantium', 'Architecto id ex est ut modi. Aut deserunt quisquam aut dolor. Itaque culpa non autem a nemo dolores.', 677, 6, 22, '2018-11-14 06:33:30', '2018-11-14 06:33:30'),
 (5, 'reprehenderit', 'Iure dolores quam earum nemo perferendis. Voluptatem vero cupiditate aut eum fuga voluptas. Vel aut velit autem esse enim laudantium voluptas. Non adipisci est et perferendis repudiandae qui. Maxime doloremque asperiores doloribus ut alias.', 444, 5, 26, '2018-11-14 06:33:30', '2018-11-14 06:33:30'),
 (6, 'voluptas', 'Praesentium quis in nesciunt esse eum non alias atque. Sed voluptate est ut sit.', 521, 1, 11, '2018-11-14 06:33:30', '2018-11-14 06:33:30'),
@@ -310,8 +308,7 @@ INSERT INTO `products` (`id`, `name`, `detail`, `price`, `stock`, `discount`, `c
 (98, 'sit', 'Odio autem consequuntur ut placeat tenetur sed culpa vitae. Eius ex consequatur vitae a quod. Minima non voluptates facilis eos.', 326, 9, 4, '2018-11-14 06:34:02', '2018-11-14 06:34:02'),
 (99, 'consequatur', 'Possimus minima aut et voluptatem libero et. Ad similique et cum eligendi. Beatae nihil et reiciendis quaerat.', 323, 8, 15, '2018-11-14 06:34:02', '2018-11-14 06:34:02'),
 (100, 'rerum', 'Commodi qui sunt dolorem quaerat quo. Tempora eos illo enim quo aperiam. Debitis officia culpa exercitationem. Odit facere iste et pariatur aut.', 541, 2, 8, '2018-11-14 06:34:02', '2018-11-14 06:34:02'),
-(101, 'Iphone X', 'The best ever phone with face ID', 150, 10, 50, '2018-11-15 03:38:03', '2018-11-15 03:38:03'),
-(102, 'Iphone 7 updated', 'The best ever phone with portrait mode updated', 120, 20, 10, '2018-11-15 03:44:54', '2018-11-15 04:12:14');
+(101, 'Iphone X', 'The best ever phone with face ID', 150, 10, 50, '2018-11-15 03:38:03', '2018-11-15 03:38:03');
 
 -- --------------------------------------------------------
 

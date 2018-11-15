@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Nov 15, 2018 at 07:51 AM
+-- Generation Time: Nov 15, 2018 at 09:43 AM
 -- Server version: 5.7.19
 -- PHP Version: 7.0.23
 
@@ -203,7 +203,7 @@ CREATE TABLE IF NOT EXISTS `products` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=101 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=103 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `products`
@@ -309,7 +309,9 @@ INSERT INTO `products` (`id`, `name`, `detail`, `price`, `stock`, `discount`, `c
 (97, 'dolores', 'Omnis qui quas dicta iure et rerum. Enim impedit aut maiores qui et. Repudiandae qui dolorum illo tenetur qui.', 178, 1, 2, '2018-11-14 06:34:02', '2018-11-14 06:34:02'),
 (98, 'sit', 'Odio autem consequuntur ut placeat tenetur sed culpa vitae. Eius ex consequatur vitae a quod. Minima non voluptates facilis eos.', 326, 9, 4, '2018-11-14 06:34:02', '2018-11-14 06:34:02'),
 (99, 'consequatur', 'Possimus minima aut et voluptatem libero et. Ad similique et cum eligendi. Beatae nihil et reiciendis quaerat.', 323, 8, 15, '2018-11-14 06:34:02', '2018-11-14 06:34:02'),
-(100, 'rerum', 'Commodi qui sunt dolorem quaerat quo. Tempora eos illo enim quo aperiam. Debitis officia culpa exercitationem. Odit facere iste et pariatur aut.', 541, 2, 8, '2018-11-14 06:34:02', '2018-11-14 06:34:02');
+(100, 'rerum', 'Commodi qui sunt dolorem quaerat quo. Tempora eos illo enim quo aperiam. Debitis officia culpa exercitationem. Odit facere iste et pariatur aut.', 541, 2, 8, '2018-11-14 06:34:02', '2018-11-14 06:34:02'),
+(101, 'Iphone X', 'The best ever phone with face ID', 150, 10, 50, '2018-11-15 03:38:03', '2018-11-15 03:38:03'),
+(102, 'Iphone 7 updated', 'The best ever phone with portrait mode updated', 120, 20, 10, '2018-11-15 03:44:54', '2018-11-15 04:12:14');
 
 -- --------------------------------------------------------
 

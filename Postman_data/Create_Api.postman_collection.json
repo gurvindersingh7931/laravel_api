@@ -1,0 +1,278 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Create_Api",
+		"_postman_id": "c996869c-b23b-aad8-1b6e-1f849079a3e9",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Products",
+			"description": "",
+			"item": [
+				{
+					"name": "Products All",
+					"request": {
+						"url": "http://127.0.0.1:8000/api/products",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Product Show",
+					"request": {
+						"url": "http://127.0.0.1:8000/api/products/55555",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Product Create",
+					"request": {
+						"url": "http://127.0.0.1:8000/api/products",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "{{auth}}",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\" : \"Iphone 7\",\n\t\"description\" : \"The best ever phone with portrait mode\",\n\t\"stock\" : \"20\",\n\t\"price\" : \"120\",\n\t\"discount\" : \"10\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Product Update",
+					"request": {
+						"url": "http://127.0.0.1:8000/api/products/102",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "{{auth}}",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\" : \"Iphone 7 updated\",\n\t\"description\" : \"The best ever phone with portrait mode updated\",\n\t\"stock\" : \"20\",\n\t\"price\" : \"120\",\n\t\"discount\" : \"10\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Product Destroy",
+					"request": {
+						"url": "http://127.0.0.1:8000/api/products/1",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "{{auth}}",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Reviews",
+			"description": "",
+			"item": [
+				{
+					"name": "Reviews All",
+					"request": {
+						"url": "http://127.0.0.1:8000/api/products/5/reviews",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Review Create",
+					"request": {
+						"url": "http://127.0.0.1:8000/api/products",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "{{auth}}",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\" : \"Iphone 7\",\n\t\"description\" : \"The best ever phone with portrait mode\",\n\t\"stock\" : \"20\",\n\t\"price\" : \"120\",\n\t\"discount\" : \"10\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Review Update",
+					"request": {
+						"url": "http://127.0.0.1:8000/api/products/10/reviews/45",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "{{auth}}",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\" : \"Iphone 7\",\n\t\"description\" : \"The best ever phone with portrait mode\",\n\t\"stock\" : \"20\",\n\t\"price\" : \"120\",\n\t\"discount\" : \"10\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Review Destroy",
+					"request": {
+						"url": "http://127.0.0.1:8000/api/products/10/reviews/45",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "{{auth}}",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\" : \"Iphone 7\",\n\t\"description\" : \"The best ever phone with portrait mode\",\n\t\"stock\" : \"20\",\n\t\"price\" : \"120\",\n\t\"discount\" : \"10\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "OAuth",
+			"description": "",
+			"item": [
+				{
+					"name": "Get Token",
+					"request": {
+						"url": "http://127.0.0.1:8000/oauth/token",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer ",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"grant_type\" : \"password\",\n\t\"client_id\" : \"2\",\n\t\"client_secret\" : \"nmkfdRUqenAcKkdfSj8O4EKcxHAqvj7AZRzaIVII\",\n\t\"username\" : \"bzemlak@example.org\",\n\t\"password\" : \"secret\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
